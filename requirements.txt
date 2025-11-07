@@ -1,7 +1,7 @@
-text
 fastapi
 uvicorn
 ibm-cos-sdk
 pandas
 sentence-transformers
 qdrant-client
+
