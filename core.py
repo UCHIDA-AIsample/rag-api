@@ -70,7 +70,7 @@ for idx, row in df.iterrows():
     full_payloads.append(full_text_clean)
 
 # --- 3. Embeddingモデル（日本語対応） ---
-model = SentenceTransformer("distiluse-base-multilingual-cased-v2")
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 embeddings = model.encode(search_texts)
 
 # --- 4. Qdrant（インメモリ）でベクトルDB作成 ---
